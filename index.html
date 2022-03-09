@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MAPTY</title>
+  </head>
+  <body>
+    <div id="mapid">
+      <!-- <span class="material-icons-outlined"> pedal_bike </span> -->
+
+      <!-- <button class=""> -->
+      <!-- <span class="removeMarker material-icons"> undo </span> -->
+      <button class="removeMarker">
+        <!-- <span class="material-icons-outlined"> undo </span> -->
+        <span class="material-icons"> undo </span>
+      </button>
+
+      <button class="clearAll">
+        <span class="material-icons"> clear </span>
+      </button>
+      <!-- </button> -->
+      <div class="markerContainer"></div>
+      <div class="endJourney"></div>
+    </div>
+
+    <div class="control-container">
+      <div class="branding-container">
+        <h1>Map Journey Builder</h1>
+        <h3>online tool to track your fitness progress</h3>
+      </div>
+
+      <div class="routes-container">
+        <h3>Routes</h3>
+        <div class="routes-list"></div>
+      </div>
+      <!-- WORKOUT FORM -->
+
+      <!-- <input type="text" name="" id=""> -->
+      <!-- </form> -->
+
+      <div class="mapmarker-container"></div>
+      <!-- <form action="POST"> -->
+      <!-- <input type="number" name="startLocation" id="" />
+        <input type="datetime" name="WorkoutTime" id="" />
+        <input type="number" name="Workout-Duration" id="" />
+        <input type="number" name="" id="" /> -->
+    </div>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+
+    <script defer src="App.js"></script>
+  </body>
+</html>
